@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>edu.kpi.microphone.model.dao.api.AudiosDao</OriginalElement>
+  <nodes>
+    <node x="457.0" y="321.0">edu.kpi.microphone.model.service.impl.UserDetailsServiceImpl</node>
+    <node x="554.5" y="66.0">org.springframework.security.core.userdetails.UserDetailsService</node>
+    <node x="109.0" y="233.0">edu.kpi.microphone.model.service.impl.UserServiceImpl</node>
+    <node x="373.25" y="66.0">org.springframework.stereotype.Service</node>
+    <node x="0.0" y="0.0">edu.kpi.microphone.model.service.api.UserService</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="edu.kpi.microphone.model.service.impl.UserServiceImpl" target="edu.kpi.microphone.model.service.api.UserService">
+      <point x="-82.0" y="-125.0" />
+      <point x="191.0" y="208.0" />
+      <point x="164.0" y="208.0" />
+      <point x="0.0" y="91.5" />
+    </edge>
+    <edge source="edu.kpi.microphone.model.service.impl.UserServiceImpl" target="org.springframework.stereotype.Service">
+      <point x="82.0" y="-125.0" />
+      <point x="355.0" y="208.0" />
+      <point x="407.25" y="208.0" />
+      <point x="-34.0" y="25.5" />
+    </edge>
+    <edge source="edu.kpi.microphone.model.service.impl.UserDetailsServiceImpl" target="org.springframework.security.core.userdetails.UserDetailsService">
+      <point x="70.5" y="-37.0" />
+      <point x="668.5" y="208.0" />
+      <point x="695.5" y="208.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="edu.kpi.microphone.model.service.impl.UserDetailsServiceImpl" target="org.springframework.stereotype.Service">
+      <point x="-70.5" y="-37.0" />
+      <point x="527.5" y="208.0" />
+      <point x="475.25" y="208.0" />
+      <point x="34.0" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.566904196357878" x="713.0" y="621.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
